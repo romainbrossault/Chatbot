@@ -4,7 +4,7 @@ export const Accueil = () => {
     return 
         <div>
         Coucou
-        </div>
+        </div>  
 };
 
 export default Accueil;
