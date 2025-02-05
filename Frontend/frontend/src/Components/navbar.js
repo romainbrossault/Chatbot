@@ -7,16 +7,12 @@ import '../CSS/navbar.css';
 export const Navbar = () => {
     return (
         <nav>
-            <ul>
-                <li>
-                    <Link to="/">Accueil</Link>
-                </li>
-                <li>
-                    <Link to="/Chats">Mes Chats</Link>
-                </li>
-                <li>
-                    <Link to="/Connexion">Connexion</Link>
-                </li>
+            <ul className='navbar'>
+                <Link to="/"><a>Accueil</a></Link>
+
+                <Link to="/Chats"><a>Mes Chats</a></Link>
+            
+                <Link to="/Connexion"><a>Connexion</a></Link>
             </ul>
         </nav>
     );
