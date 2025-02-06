@@ -1,6 +1,6 @@
 nav {
     background-color: #99bbc8;
-    padding: 20px 20px;
+    padding: 10px 20px;
 }
 
 nav ul {
@@ -22,7 +22,7 @@ nav ul {
 .navbar a {
     text-decoration: none;
     color: #f8fdfd;
-    margin : 10px;
+    margin : 30px;
     transition-duration: 0.2s;
 }
 
@@ -33,6 +33,7 @@ nav ul {
 
 .login-button {
     margin-left: auto;
+    margin-right: 20px;
     
 }
 
@@ -40,7 +41,7 @@ nav ul {
     text-decoration: none;
     color: white;
     background-color: #2db5d5;
-    padding: 5px 5px;
+    padding: 5px 10px;
     border-radius: 5px;
     margin : 10px;
     transition-duration: 0.2s;

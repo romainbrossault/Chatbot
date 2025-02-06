@@ -6,6 +6,11 @@ const Navbar = () => {
     return (
         <nav>
             <ul>
+                <div className='logo'>
+                    <Link to="/" >
+                    <img src='logo90.png' alt='ChatBot' />
+                    </Link>
+                </div>
                 <div className='navbar'>
                     <Link to="/" className='nav-button'>Accueil</Link>
                     <Link to="/Chats" className='nav-button'>Mes Chats</Link>
