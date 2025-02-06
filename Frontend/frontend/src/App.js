@@ -1,10 +1,15 @@
+/*Importation des modules*/
 import { Route,Routes } from "react-router-dom";
-import { Navbar } from "./Components/navbar";
+
+
+/*Importation des pages*/
 import { Accueil } from "./Pages/Accueil";
 import { Chats } from "./Pages/Chats";
 import { Connexion } from "./Pages/Connexion";
 
-import "./CSS/navbar.css";
+/*Importation des composants*/
+import { Navbar } from "./Components/navbar";
+import Footer from './Components/footer'; 
 
 function App() {
   return (
@@ -15,6 +20,7 @@ function App() {
         <Route path="/Chats" element={<Chats />} />
         <Route path="/Connexion" element={<Connexion />} />
       </Routes>
+      <Footer />
     </div>  
   );
 }
