@@ -19,29 +19,37 @@ nav ul {
     flex-grow: 1;
 }
 
-.nav-button {
-    text-decoration: none;
-    color: #f8fdfd;
-    transition-duration: 0.2s;
-    margin: 10px;
-}
-
-.nav-button:hover {
-    transition-duration: 0.2s;
-    color: rgb(235, 235, 235);
-}
-
-.login-button .nav-button {
+.navbar a {
     text-decoration: none;
     color: white;
-    background-color: #2db5d5;
+    background-color: #cacaca;
     padding: 5px 5px;
     border-radius: 5px;
-    margin: 15px;
+    margin : 10px;
     transition-duration: 0.2s;
 }
 
-.login-button .nav-button:hover {
+.navbar a:hover {
+    transform: scale(1.1);
     transition-duration: 0.2s;
-    background-color: #187bcd;
+}
+
+.login-button {
+    margin-left: auto;
+    
+}
+
+.login-button a {
+    text-decoration: none;
+    color: white;
+    background-color: #cacaca;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin : 10px;
+    transition-duration: 0.2s;
+}
+
+.login-button a:hover {
+    transform: scale(2.0);
+    transition-duration: 0.2s;
 }
