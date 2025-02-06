@@ -21,16 +21,13 @@ nav ul {
 
 .navbar a {
     text-decoration: none;
-    color: white;
-    background-color: #cacaca;
-    padding: 5px 5px;
-    border-radius: 5px;
+    color: #f8fdfd;
     margin : 10px;
     transition-duration: 0.2s;
 }
 
-.navbar a:hover {
-    transform: scale(1.1);
+.navbar a:hover {  
+    color: rgb(216, 232, 245);
     transition-duration: 0.2s;
 }
 
@@ -42,7 +39,7 @@ nav ul {
 .login-button a {
     text-decoration: none;
     color: white;
-    background-color: #cacaca;
+    background-color: #2db5d5;
     padding: 5px 5px;
     border-radius: 5px;
     margin : 10px;
@@ -50,6 +47,6 @@ nav ul {
 }
 
 .login-button a:hover {
-    transform: scale(2.0);
+    background-color: #187bcd;
     transition-duration: 0.2s;
 }
