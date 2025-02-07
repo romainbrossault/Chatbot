@@ -5,13 +5,13 @@ body {
     font-family: Arial, sans-serif;
     background-color: #99bbc8;
 }
+
 .container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 20px;
-    box-sizing: border-box;
+    align-items: center;
+    gap: 20px; /* Espace horizontal entre les boutons */
+    margin-top: 30px; /* Ajustez la marge supérieure si nécessaire */
 }
 
 h1 {
@@ -27,9 +27,9 @@ h1 {
 }
 
 textarea {
-    margin-top: 250px;
+    margin-top: 50px;
     width: 100%;
-    height: 150px;
+    height: 50px;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -41,8 +41,18 @@ textarea {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-button {
-    margin-top: 30px;
+.modify-date, .creation-date {
+    text-align: left;
+    margin-top: 2px;
+    font-size: 16px;
+    color: #333;
+    font-family: Arial, sans-serif;
+
+}
+
+.modify-button, .delete-button {
+    height: 50px;
+    margin: 30px;
     padding: 12px 24px;
     border: none;
     border-radius: 8px;
