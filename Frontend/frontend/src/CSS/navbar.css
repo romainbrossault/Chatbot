@@ -38,6 +38,8 @@ nav ul {
 }
 
 .login-button a {
+    width: 100%;
+    height: auto;
     text-decoration: none;
     color: white;
     background-color: #2db5d5;
