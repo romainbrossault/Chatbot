@@ -1,13 +1,11 @@
-/* Importation des modules */
+
 import { Route, Routes } from "react-router-dom";
 
-/* Importation des pages */
 import Accueil from "./Pages/Accueil";
 import Chats from "./Pages/Chats";
 import Connexion from "./Pages/Connexion";
 import Inscription from "./Pages/Inscription";
 
-/* Importation des composants */
 import Navbar from "./Components/navbar";
 import Footer from "./Components/footer";
 

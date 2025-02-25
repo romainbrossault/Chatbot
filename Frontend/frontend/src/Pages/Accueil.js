@@ -6,13 +6,10 @@ export const Accueil = () => {
     const [notification, setNotification] = useState("");
 
     const handleSendMessage = () => {
-        // Logic to send message to chatbot
         console.log("Message sent to chatbot:", message);
         
-        // Afficher la notification
         setNotification("Requête envoyée avec succès !");
         
-        // Masquer la notification après 3 secondes
         setTimeout(() => {
             setNotification("");
         }, 3000);

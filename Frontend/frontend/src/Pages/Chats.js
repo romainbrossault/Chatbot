@@ -5,7 +5,6 @@ export const Chats = () => {
    const [message, setMessage] = useState("");
    
        const handleSendMessage = () => {
-           // Logic to send message to chatbot
            console.log("Message sent to chatbot:", message);
        };
    

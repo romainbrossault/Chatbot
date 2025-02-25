@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./styles/inscription.css"; // Assurez-vous d'avoir un fichier CSS pour les styles
+import "./styles/inscription.css";
 
 export const Inscription = () => {
     return (
